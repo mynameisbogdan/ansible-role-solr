@@ -7,3 +7,4 @@
     name: "{{ solr_user }}"
     state: present
     group: "{{ solr_user }}"
+    createhome: no
